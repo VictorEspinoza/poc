@@ -1,3 +1,59 @@
-.border-black {
-  border: 1px solid #000;
+html,
+body {
+  width: 100%;
+
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+
+  margin-bottom: .25rem;
+}
+
+input {
+  width: 100%;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.calculator {
+  padding: 1rem;
+}
+
+.calculator__item {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+}
+
+.calculator__input {
+  flex: 0 0 45%;
+  max-width: 45%;
+
+  padding-right: 1rem;
+}
+
+.calculator__slider {
+  flex: 0 0 45%;
+  max-width: 45%;
+
+
 }
